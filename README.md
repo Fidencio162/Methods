@@ -5,4 +5,5 @@ Para compilar se hace de la siguiente manera:
 
 • gfortran -c Mathematical.f, lo que da dos archivos: Mathematical.mod y Mathematical.o. Podemos incluir el archivo .o en una librería de programas o bien guardarlo aparte.
 
-• Una vez construido nuestro programa main compilamos y ejecutamos de la siguiente manera: gfortran -o main -J. main.f Mathematical.o.
+• Una vez construido nuestro programa main compilamos y ejecutamos de la siguiente manera: 
+gfortran -o main -J. main.f Mathematical.o.
