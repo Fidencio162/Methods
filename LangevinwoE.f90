@@ -19,6 +19,7 @@ program LangevinooE
 	gam0=0.2d0
 	d2=1.d0
 	c=0.1d0
+	! eq (7), Phys. Rev. Lett. 80, 5044 
 	do i=1,maxt
 	t(i)=float(i)*dt
 	x(i)=x1+v1*dt
